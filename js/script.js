@@ -58,7 +58,6 @@ const articles = document.querySelectorAll(optArticleSelector);
 let html = '';
 
 for(let article of articles){
-  article.classList.remove('active');
 
     /* get the article id */
    
