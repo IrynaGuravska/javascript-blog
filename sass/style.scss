@@ -3,8 +3,9 @@
 
 /* Variables */
 
-$color-light: #fff;
+$color-light: linear-gradient(#e5acf7, #00FFE6);
 $color-dark: #444;
+
 
 $font-logo: 'Sacramento', cursive;
 $font-header: 'Oswald', sans-serif;
@@ -16,7 +17,7 @@ $font-text: 'Source Sans Pro', sans-serif;
   box-sizing: border-box;
 }
 body {
-  background: $color-light;
+  background: linear-gradient(45deg, #DA75F9, #00FFE6);
   font-family: $font-text;
   color: $color-dark;
   font-weight: 300;
