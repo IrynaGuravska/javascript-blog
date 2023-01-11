@@ -38,7 +38,7 @@ body {
   span {
     text-transform: none;
     font-weight: 400;
-    color: lighten($color-dark, 20%);
+    color: lighten($color-dark, 10%);
   }
 }
 
@@ -103,9 +103,13 @@ body {
 /* Post */
 
 .post {
-  display: none;
+  //display: none;
+  font-size: 0px;
+  transition: all 1s ease-in 0s;
+  
   &.active {
-    display: block;
+    //display: block;
+    font-size: 16px;
   }
 }
 
