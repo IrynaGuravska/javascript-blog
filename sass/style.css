@@ -28,7 +28,7 @@ body {
 .section-title span {
   text-transform: none;
   font-weight: 400;
-  color: #777777;
+  color: #5e5e5e;
 }
 
 /* Layout */
@@ -74,6 +74,7 @@ body {
 
 .list-horizontal li {
   display: inline-block;
+  margin: 0 5px;
 }
 
 /* Authors */
@@ -83,10 +84,11 @@ body {
 
 /* Post */
 .post {
-  display: none;
+  font-size: 0px;
+  transition: all 1s ease-in 0s;
 }
 .post.active {
-  display: block;
+  font-size: 16px;
 }
 
 .post-author {
