@@ -92,6 +92,7 @@ body {
 }
 
 .post-author {
+  list-style-type: none;
   font-style: italic;
 }
 
