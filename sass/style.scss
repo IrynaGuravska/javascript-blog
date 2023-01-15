@@ -117,6 +117,7 @@ body {
 .post-author {
   list-style-type: none;
   font-style: italic;
+  
 }
 
 .post-tags {
@@ -124,4 +125,7 @@ body {
   p {
     margin: 0 10px 0 0;
   }
+  a{
+    margin:0 5px;
+}
 }
