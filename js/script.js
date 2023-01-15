@@ -17,7 +17,7 @@ function titleClickHandler(event){
   console.log('clickedElement:', clickedElement);
 
   /* [DONE] remove class 'active' from all articles */
-  const activeArticles = document.querySelectorAll('article');
+  const activeArticles = document.querySelectorAll('.posts article.active');
 
   for(let activeArticle of activeArticles){
     activeArticle.classList.remove('active');
@@ -207,14 +207,14 @@ function tagClickHandler(event){
 function addClickListenersToTags(){
 /* find all links to tags */
 
-  const targetTagLinks = document.querySelectorAll('a[href^="#tag-"]');
-  console.log(targetTagLinks);
+  const tagLinks = document.querySelectorAll('a[href^="#tag-"]');
+  console.log(tagLinks);
 
   /* START LOOP: for each link */
-  for(let targetTagLink of targetTagLinks){
+  for(let tagLink of tagLinks){
 
     /* add tagClickHandler as event listener for that link */
-    targetTagLink.addEventListener('click', tagClickHandler);
+    tagLink.addEventListener('click', tagClickHandler);
 
   /* END LOOP: for each link */
   } 
@@ -260,7 +260,7 @@ function authorClickHandler(event){
   const href = clickedElement.getAttribute('href');
   console.log(href);
 
-  const author = href.replace('#author-', ' ');
+  const author = href.replace('#author-', '');
   console.log(author);
 
   const activeAuthorLinks = document.querySelectorAll('a.active[href^="#author-"]');
