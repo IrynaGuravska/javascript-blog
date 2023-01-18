@@ -7,6 +7,8 @@
 
 body {
   background-image: url(https://i.postimg.cc/L5wqLPXX/pexels-life-of-pix-134575.jpg);
+  background-position: center;
+  background-size: cover;
   font-family: "Source Sans Pro", sans-serif;
   color: rgb(46, 45, 45);
   font-weight: 300;
@@ -20,6 +22,7 @@ body {
 }
 
 .section-title {
+  color: rgb(55, 37, 5);
   font-size: 22px;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
@@ -95,6 +98,7 @@ body {
   margin: 0 5px;
 }
 .list .active {
+  color: rgb(55, 37, 5);
   font-weight: bold;
 }
 
@@ -123,6 +127,7 @@ body {
 }
 
 .post-tags {
+  color: rgb(55, 37, 5);
   display: flex;
 }
 .post-tags p {
