@@ -3,8 +3,8 @@
 
 /* Variables */
 
-$color-light: linear-gradient(#e5acf7, #00FFE6);
-$color-dark: #444;
+$color-light: linear-gradient(#f2edf4, #ebdca6);
+$color-dark: rgb(46, 45, 45);
 
 
 $font-logo: 'Sacramento', cursive;
@@ -17,7 +17,8 @@ $font-text: 'Source Sans Pro', sans-serif;
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(45deg, #DA75F9, #00FFE6);
+  //background: linear-gradient(45deg, #DA75F9, #00FFE6);
+  background-image: url(https://i.postimg.cc/L5wqLPXX/pexels-life-of-pix-134575.jpg);
   font-family: $font-text;
   color: $color-dark;
   font-weight: 300;
@@ -76,11 +77,33 @@ body {
 }
 
 /* Lists */
+.tag-size-5 {
+  font-size: 180%;
+  color: rgb(55, 37, 5);
+}
+.tag-size-4 {
+  font-size: 160%;
+  color: rgb(236, 173, 64);
+}
+.tag-size-3 {
+  font-size: 140%;
+  color: rgb(242, 136, 6);
+}
+.tag-size-2 {
+  font-size: 120%;
+  color: rgb(150, 98, 8);
+}
+.tag-size-1 {
+  font-size: 100%;
+  color: rgb(50, 35, 12);
+}
 
 .list {
+  
+  display: inline-block;
   list-style-type: none;
-  margin: 0;
   padding: 0;
+  margin: 0 5px;
   .active {
     font-weight: bold;
   }
@@ -102,6 +125,7 @@ body {
 }
 
 /* Post */
+
 
 .post {
   //display: none;
