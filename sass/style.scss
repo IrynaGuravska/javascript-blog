@@ -28,6 +28,7 @@ body {
   line-height: 1.7;
 }
 
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -80,6 +81,8 @@ body {
 }
 
 /* Lists */
+
+
 .tag-size-5 {
   font-size: 180%;
   color: rgb(55, 37, 5);
@@ -102,6 +105,9 @@ body {
 }
 
 .list {
+  a {
+    text-decoration: none;
+  }
   display: inline-block;
   list-style-type: none;
   padding: 0;
@@ -125,10 +131,14 @@ body {
   li {
     margin-bottom: 12px;
   }
+  a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(50, 35, 12);
+}
 }
 
 /* Post */
-
 
 .post {
   //display: none;
@@ -144,7 +154,6 @@ body {
 .post-author {
   list-style-type: none;
   font-style: italic;
-  
 }
 
 .post-tags {
@@ -154,6 +163,7 @@ body {
     margin: 0 10px 0 0;
   }
   a{
+    text-decoration: none;
     margin:0 5px;
 }
 }
